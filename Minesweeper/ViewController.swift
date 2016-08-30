@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let gameBoard = GameBoard()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        gameBoard.createNewGameBoard(numberOfRows: 5, numberOfColumns: 5)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

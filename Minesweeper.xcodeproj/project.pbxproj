@@ -13,6 +13,7 @@
 		EB83BBC01D753CEC00E19ADF /* Minesweeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB83BBBE1D753CEC00E19ADF /* Minesweeper.xcdatamodeld */; };
 		EB83BBC21D753CEC00E19ADF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB83BBC11D753CEC00E19ADF /* Assets.xcassets */; };
 		EB83BBC51D753CEC00E19ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83BBC31D753CEC00E19ADF /* LaunchScreen.storyboard */; };
+		EB83BBCD1D753D8200E19ADF /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83BBCC1D753D8200E19ADF /* GameBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EB83BBC11D753CEC00E19ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB83BBC41D753CEC00E19ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB83BBC61D753CEC00E19ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB83BBCC1D753D8200E19ADF /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EB83BBC31D753CEC00E19ADF /* LaunchScreen.storyboard */,
 				EB83BBC61D753CEC00E19ADF /* Info.plist */,
 				EB83BBBE1D753CEC00E19ADF /* Minesweeper.xcdatamodeld */,
+				EB83BBCC1D753D8200E19ADF /* GameBoard.swift */,
 			);
 			path = Minesweeper;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB83BBCD1D753D8200E19ADF /* GameBoard.swift in Sources */,
 				EB83BBC01D753CEC00E19ADF /* Minesweeper.xcdatamodeld in Sources */,
 				EB83BBBA1D753CEC00E19ADF /* ViewController.swift in Sources */,
 				EB83BBB81D753CEC00E19ADF /* AppDelegate.swift in Sources */,
