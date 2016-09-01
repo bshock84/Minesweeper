@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        gameBoard.createNewGameBoard(numberOfRows: 5, numberOfColumns: 5)
+        gameBoard.createNewGameBoard(gridSize: Point(x: 10, y: 10))
         // Do any additional setup after loading the view, typically from a nib.
     }
 
