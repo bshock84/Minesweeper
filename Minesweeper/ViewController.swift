@@ -11,11 +11,14 @@ import UIKit
 class ViewController: UIViewController {
 
     let gameBoard = GameBoard()
+    let userController = GameUser()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         gameBoard.createNewGameBoard(gridSize: Point(x: 10, y: 10))
+        userController.createNewUser(userName: "bshock84", firstName: "Ben", lastName: "Shockley", age: 32)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

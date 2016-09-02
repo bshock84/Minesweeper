@@ -15,6 +15,8 @@
 		EB83BBC51D753CEC00E19ADF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB83BBC31D753CEC00E19ADF /* LaunchScreen.storyboard */; };
 		EB83BBCD1D753D8200E19ADF /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83BBCC1D753D8200E19ADF /* GameBoard.swift */; };
 		EB83BBCF1D7824A300E19ADF /* GameCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83BBCE1D7824A300E19ADF /* GameCycle.swift */; };
+		EB83BBD11D78A57D00E19ADF /* GameConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83BBD01D78A57D00E19ADF /* GameConfiguration.swift */; };
+		EB83BBD31D78B21400E19ADF /* GameUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB83BBD21D78B21400E19ADF /* GameUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EB83BBC61D753CEC00E19ADF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB83BBCC1D753D8200E19ADF /* GameBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
 		EB83BBCE1D7824A300E19ADF /* GameCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCycle.swift; sourceTree = "<group>"; };
+		EB83BBD01D78A57D00E19ADF /* GameConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameConfiguration.swift; sourceTree = "<group>"; };
+		EB83BBD21D78B21400E19ADF /* GameUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				EB83BBBE1D753CEC00E19ADF /* Minesweeper.xcdatamodeld */,
 				EB83BBCC1D753D8200E19ADF /* GameBoard.swift */,
 				EB83BBCE1D7824A300E19ADF /* GameCycle.swift */,
+				EB83BBD01D78A57D00E19ADF /* GameConfiguration.swift */,
+				EB83BBD21D78B21400E19ADF /* GameUser.swift */,
 			);
 			path = Minesweeper;
 			sourceTree = "<group>";
@@ -105,7 +111,7 @@
 				TargetAttributes = {
 					EB83BBB31D753CEC00E19ADF = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = M2E574EG2U;
+						DevelopmentTeam = XP5S23F738;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,8 +154,10 @@
 			files = (
 				EB83BBCD1D753D8200E19ADF /* GameBoard.swift in Sources */,
 				EB83BBCF1D7824A300E19ADF /* GameCycle.swift in Sources */,
+				EB83BBD31D78B21400E19ADF /* GameUser.swift in Sources */,
 				EB83BBC01D753CEC00E19ADF /* Minesweeper.xcdatamodeld in Sources */,
 				EB83BBBA1D753CEC00E19ADF /* ViewController.swift in Sources */,
+				EB83BBD11D78A57D00E19ADF /* GameConfiguration.swift in Sources */,
 				EB83BBB81D753CEC00E19ADF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M2E574EG2U;
+				DEVELOPMENT_TEAM = XP5S23F738;
 				INFOPLIST_FILE = Minesweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shockedstudios.Minesweeper;
@@ -284,7 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = M2E574EG2U;
+				DEVELOPMENT_TEAM = XP5S23F738;
 				INFOPLIST_FILE = Minesweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shockedstudios.Minesweeper;
@@ -312,6 +320,7 @@
 				EB83BBCB1D753CEC00E19ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
